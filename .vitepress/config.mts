@@ -18,7 +18,7 @@ export default defineConfig({
         text: 'Rules',
         items: [
           { text: 'Style Guides', link: '/style-guides' },
-          { text: 'Commit Message', link: '/commit-message' },
+          { text: 'Commit Messages', link: '/commit-messages' },
         ]
       }
     ],
