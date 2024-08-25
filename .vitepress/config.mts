@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Devrules",
   description: "Development Rules",
+  head: [
+    ["link", { rel: "icon", href: "/assets/images/lunorix/icon.png" }],
+  ],
   themeConfig: {
     logo: '/assets/images/lunorix/icon.png',
     search: {
